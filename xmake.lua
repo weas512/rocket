@@ -10,8 +10,10 @@ target("rocket")
     set_languages("c++17")
     
     add_files("src/*.cpp") 
-    add_files("src/tests/*.cpp")
-     
+    add_files("src/component/*.cpp")
+    add_files("src/entity/*.cpp")
+    add_files("src/system/*.cpp") 
+    add_files("src/graphic/*.cpp")
     add_packages("sfml")
 
     -- Debug preferences
